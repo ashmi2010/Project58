@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#hobby {
+    position: absolute;
+    height: 800px;
+    color: black;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(#05f541 0%, #f520ca 100%);
+    display: table;
+    width: 100%;
+    z-index: 9;
+}
+
+h1 {
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#favourite {
+
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 42px;
+    background-color: lavender;
+}
+
+.line {
+    height: 6px;
+    background-color: magenta;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    color: purple;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: "cinzel decorative";
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: coral;
+}
+
+
